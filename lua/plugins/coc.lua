@@ -18,3 +18,7 @@ keyset("n", "gd", "<Plug>(coc-definition)", {silent = true})
 keyset("n", "gy", "<Plug>(coc-type-definition)", {silent = true})
 keyset("n", "gi", "<Plug>(coc-implementation)", {silent = true})
 keyset("n", "gr", "<Plug>(coc-references)", {silent = true})
+
+-- Formatting selected code.
+keyset("x", "<leader>g", "<Plug>(coc-format-selected)", {silent = true})
+keyset("n", "<leader>g", "<Plug>(coc-format-selected)", {silent = true})
