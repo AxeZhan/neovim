@@ -17,4 +17,6 @@ require("bufferline").setup {
     }
 }
 
+require("auto-save").setup {}
+
 vim.g.Lf_WindowPosition = 'popup'
