@@ -9,8 +9,6 @@ return require('packer').startup(function()
   
   use 'vim-airline/vim-airline'
 
-  use { "windwp/nvim-autopairs", config = function() require("nvim-autopairs").setup {} end}
-
   use 'Yggdroot/LeaderF' 
   
   use "lukas-reineke/indent-blankline.nvim"

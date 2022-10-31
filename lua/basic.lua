@@ -7,4 +7,4 @@ vim.o.autoindent = true
 vim.o.smartindent = true
 vim.o.expandtab = true
 vim.o.termguicolors = true
-
+vim.o.ic = true
