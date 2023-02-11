@@ -8,4 +8,5 @@ vim.o.smartindent = true
 vim.o.expandtab = true
 vim.o.termguicolors = true
 vim.o.ic = true
-vim.o.foldmethod='indent'
+vim.o.foldmethod = 'indent'
+vim.o.foldlevelstart = 99
